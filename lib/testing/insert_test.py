@@ -12,7 +12,7 @@ cursor.executescript(create_as_string)
 
 insert_file = open("lib/insert.sql")
 insert_as_string = insert_file.read()
-cursor.executescript(insert_as_string)
+# cursor.executescript(insert_as_string)
 
 class TestInsert:
     '''Statement in insert.sql'''
